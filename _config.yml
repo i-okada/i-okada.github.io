@@ -19,3 +19,6 @@ github_username:  i-okada
 
 # Build settings
 markdown: kramdown
+
+gems:
+  - jekyll-org
