@@ -21,4 +21,4 @@ github_username:  i-okada
 markdown: kramdown
 
 gems:
-  - org_converter
+  - jekyll-org
