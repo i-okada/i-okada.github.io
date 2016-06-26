@@ -101,6 +101,8 @@ GEM
       pkg-config (~> 1.1.7)
     octokit (4.3.0)
       sawyer (~> 0.7.0, >= 0.5.3)
+    org-ruby (0.9.12)
+      rubypants (~> 0.2)
     pkg-config (1.1.7)
     public_suffix (1.5.3)
     rb-fsevent (0.9.7)
@@ -108,6 +110,7 @@ GEM
       ffi (>= 0.5.0)
     ref (2.0.0)
     rouge (1.10.1)
+    rubypants (0.2.0)
     safe_yaml (1.0.4)
     sass (3.4.22)
     sawyer (0.7.0)
@@ -128,6 +131,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  org-ruby
   therubyracer
 
 BUNDLED WITH
