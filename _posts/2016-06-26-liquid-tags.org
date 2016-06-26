@@ -1,0 +1,10 @@
+#+TITLE: Jekyll and Org together
+#+LAYOUT: posts
+#+TAGS: jekyll org-mode
+#+liquid: enabled
+
+{{ page.foo }}
+
+or
+
+{{ site.time | date_to_xmlschema }}
