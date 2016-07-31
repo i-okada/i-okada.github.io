@@ -7,11 +7,12 @@ categories: PHP
 NetBSDにFuelPHPをインストールしたときのメモ。
 
 {% highlight shell %}
+$ su -
 $ cd /usr/pkgsrc/converter/php-json
 $ sudo bmake package-install clean
 $ sudo vi /usr/pkg/etc/php.ini      # add 'extensions=jso.so'
 $ curl get.fuelphp.com/oil | sh
-$ sudo vi /usr/local/bin/oil   # edit bash path(#!/usr/pkg/bin/bash)
+$ sudo vi /usr/local/bin/oil   # edit bash path(#!/usr/p@kg/bin/bash)
 $ oil create name_of_application
 {% endhighlight %}
 

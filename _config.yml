@@ -19,6 +19,4 @@ github_username:  i-okada
 
 # Build settings
 markdown: kramdown
-
-gems:
-  - jekyll-org
+exclude: ['vendor/bundle', '.gi', '.gitignore', 'Gemfile', 'Gemfile.lock']
