@@ -5,9 +5,12 @@ date:   2016-08-01
 categories: ruby 
 ---
 
-2つのファイルが同一かどうか比較する方法。ruby には
- `FileUtils#compare_file` メソッドがある。 [マニュアル][ruby-docs] を調
-べてみる。
+学生の提出物を採点するときに、提出物が誰か他の学生のファイルをコピーし
+たものかどうか調べる必要があります。それで、2つのファイルが同一かどう
+か比較する方法について調べました。
+
+ruby には `FileUtils#compare_file` メソッドがあります。
+ [FileUtils.html][ruby-docs] のマニュアルを調べてみます。
 
 {% highlight ruby %}
 $ pry
@@ -21,4 +24,4 @@ Digestを使ってハッシュ値をとったりするのかと思っていた�
 容が一致するかどうかを知りたいのだから、これで理にかなっている。
 
 compare_stream 
-[ruby-docs]: http://docs.ruby-lang.org/ja/2.1.0/class/FileUtils.html#M_CMP
+[ruby-docs]: http://docs.ruby-lang.org/ja/2.1.0/class/FileUtils.html#M_CMP 
