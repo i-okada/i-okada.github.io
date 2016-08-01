@@ -23,5 +23,4 @@ $ pry
 Digestを使ってハッシュ値をとったりするのかと思っていたが、ファイルの内
 容が一致するかどうかを知りたいのだから、これで理にかなっている。
 
-compare_stream 
 [ruby-docs]: http://docs.ruby-lang.org/ja/2.1.0/class/FileUtils.html#M_CMP 
