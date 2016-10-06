@@ -10,7 +10,7 @@ categories: ruby
 か比較する方法について調べました。
 
 ruby には `FileUtils#compare_file` メソッドがあります。
- [FileUtils.html][ruby-docs] のマニュアルを調べてみます。
+ [FileUtils][ruby-docs] のマニュアルを調べてみます。
 
 {% highlight ruby %}
 $ pry
