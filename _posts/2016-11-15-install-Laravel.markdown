@@ -24,5 +24,5 @@ $ composer global require "laravel/installer=~1.1"
 ### Laravel プロジェクト生成
 
 {% highlight shell %}
-$ composer crete-project laravel/laravel project_name
+$ composer create-project laravel/laravel project_name
 {% endhighlight %}
