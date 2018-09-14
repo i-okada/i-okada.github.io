@@ -4,6 +4,11 @@ title:  "Installing GitExtensions"
 date:   2016-10-06
 categories: git
 ---
+
+追記：Windows 10の環境ではGit for Windows(Git bash)がインストール済み
+のPCが増えてきているようです。Git bashが入っていれば、GitExtensionsを
+入れる必要はありません。(2018-9-14)
+
 WindowsにGitExtensions(version: 2.48.05)をインストールしたときのメモ。
 
 ## 手順
